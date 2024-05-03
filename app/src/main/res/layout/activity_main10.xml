@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="298dp"
+        android:layout_height="368dp"
+        android:text="Дальневосточный леопард Амурский барс, восточносибирский леопард – у этого хищника до 5 названий. Считается самым редким подвидом. По данным 2017 года в России обитает 87 особей. Их ареал – национальный парк «Земля леопарда». Дальневосточный леопард Снижение численности дальневосточных леопардов связано с браконьерством. В том числе речь идет о животных, которыми питаются эти хищники. Также люди уничтожают леса – естественную зону обитания. В связи с малой численностью вида размножение леопардов происходит в пределах одной популяции, что плохо сказывается на генетике. Хищник ведет ночной образ жизни, охотится в одиночку. Рацион составляют другие животные любого размера, преимущественно – копытные. Крупной добычи леопарду хватает примерно на неделю."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072"
+        app:srcCompat="@drawable/o" />
+</androidx.constraintlayout.widget.ConstraintLayout>

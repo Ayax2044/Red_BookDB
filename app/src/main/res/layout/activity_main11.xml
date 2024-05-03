@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity11">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="314dp"
+        android:layout_height="373dp"
+        android:text="Амурский или дальневосточный тигр обитает в юго-восточной части России. Это охраняемая территория, распространяющаяся по берегам рек Уссури и Амур. По переписи 2015 года количество этих животных составило 523-540 особей. Амурский тигр Например, в 2013 тигров было меньше – 450. Основная причина исчезновения в 19-м веке заключается в человеческой деятельности – каждый год поголовье тигров сокращалось в среднем на 100 особей. Специалисты планируют расселить амурских тигров в районе Плейстоценового парка (Якутия). Тогда удастся повысить их популяцию до 75 особей. Но для этого необходимо увеличить популяцию парнокопытных животных, которые составляют основу рациона тигров. Помимо оленей, косуль, лосей, они питаются мелкими животными, птицами, рыбой. В сутки тиграм необходимо около 10 кг мяса."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081"
+        app:srcCompat="@drawable/p" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="344dp"
+        android:layout_height="408dp"
+        android:text="Снежный барс (ирбис, снежный леопард) Крупный хищник из семейства кошачьих распространен в горах Центральной Азии. В России это Алтай, Тува, Красноярский край, Хакасия, Бурятия, горная система Восточный Саян. Из-за сложных условий, в которых обитает ирбис, он является одним из самых малоизученных видов своего семейства. Возможно, популяция снежных барсов не исчезла окончательно именно благодаря его ареалу. Снежный барс Согласно подсчетам в 2019 году, численность ирбисов в России – 63-64 особи, из них было более 10 котят. Данные свидетельствуют о том, что популяция остается сравнительно стабильной. На территории РФ обитает 2-3% ирбисов от общего числа особей. Официально охота на ирбисов запрещена. Однако браконьерство продолжает наносить вред их популяции. Пострадали хищники и вследствие массовой травли ядохимикатами грызунов, которые входят в их рацион. Снежные барсы ведут преимущественно одиночный образ жизни, но иногда встречаются семейные группы. Питаются копытными, мелкими животными."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076"
+        app:srcCompat="@drawable/i" />
+</androidx.constraintlayout.widget.ConstraintLayout>
